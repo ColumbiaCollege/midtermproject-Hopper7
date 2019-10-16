@@ -22,8 +22,12 @@ void draw() {
   // call my draw character object
   player1.drawCharacter();
   player1.move();
+  player1.attack1();
+  player1.getsHit();
   player2.drawCharacter();
   player2.move();
+  player2.attack2();
+  player2.getsHit();
   platform.drawPlatform();
   //physics.gravity();
   println();
